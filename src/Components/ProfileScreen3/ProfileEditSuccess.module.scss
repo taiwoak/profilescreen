@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+.successcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem; 
+    width: 24.6875rem;
+    height: 3.125rem;
+    position: absolute;
+    left: 32.625rem;
+    top: 1.625rem;
+    background: #F6FFED;
+    border: 1px solid #B7EB8F;
+    border-radius: 8px;
+}
+
+.successicon {
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.successcon p {
+    width: 20.9375rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: #4EB61A;
+}
+
+
+@media (max-width: 575px) {
+    .successcon {
+        width: 20.9375rem;
+        height: 4.5rem;
+        position: absolute;
+        left: 2.5rem;
+        top: 5rem;
+    }
+    
+    
+    .successcon p {
+        width: 16.5rem;
+        height: 2.75rem;
+    }
+} 
